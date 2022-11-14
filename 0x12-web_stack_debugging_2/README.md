@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Web stack debugging #2
 
 This was the third in a series of web stack debugging projects. In these
@@ -22,3 +23,6 @@ web stack.
   that fixes a web server to run Nginx listening on port `8080` as the `nginx`
   user.
   * 7 lines long.
+=======
+0x12. Web stack debugging #2
+>>>>>>> b05dca4e9f6d565cc601001d396b890ef003eeea

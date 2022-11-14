@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Firewall
 
 In this project, I used `ufw` to configure firewalls on my issued web servers.
@@ -12,3 +13,6 @@ In this project, I used `ufw` to configure firewalls on my issued web servers.
 * **2. Port forwarding**
   * [100-port_forwarding](./100-port_forwarding): `ufw` configuration file that
   configures a firewall to redirect port `8080/TCP` to port `80/TCP`.
+=======
+0x13. Firewall
+>>>>>>> b05dca4e9f6d565cc601001d396b890ef003eeea

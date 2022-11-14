@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Copyright (c) 2014, 2016, Oracle and/or its affiliates. All rights reserved.
 #
 # This program is free software; you can redistribute it and/or modify
@@ -49,3 +50,16 @@ binlog_do_db    = tyrell_corp
 
 # setting location of the replica's relay log file
 relay-log = /var/log/mysql/mysql-relay-bin.log
+=======
+[mysqld]
+pid-file        = /var/run/mysqld/mysqld.pid
+socket          = /var/run/mysqld/mysqld.sock
+datadir         = /var/lib/mysql
+log-error       = /var/log/mysql/error.log
+bind-address    = 0.0.0.0
+symbolic-links  = 0
+server-id       = 2
+log_bin         = /var/log/mysql/mysql-bin.log
+relay_log       = /var/log/mysql/mysql-relay-bin
+binlog_do_db    = tyrell_corp
+>>>>>>> b05dca4e9f6d565cc601001d396b890ef003eeea
